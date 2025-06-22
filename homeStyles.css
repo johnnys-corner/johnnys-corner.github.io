@@ -1,0 +1,130 @@
+/* styles.css */
+html {
+    font-size: 85%;  
+}
+
+body {
+    background-color: #ffffff;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* logo stuff */
+.header {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  width: 100%;
+  padding: 20px 0;         /* Add spacing as needed */
+  background: #ffffff;     /* Optional: set header bg color */
+}
+
+.header-logo {
+  width: 120px;            /* Use fixed width/height or */
+  height: auto;            /* 'auto' to maintain aspect ratio */
+  max-width: 10%;          /* Responsive scaling if needed */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(100, 100, 50, 0.1);
+    text-align: center;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+/*Not sure what this is controlling*/
+.nav-logo{
+    color: red;
+}
+
+/*Controlling top navigation bar*/
+/* Make the nav bar full width */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%; /* Ensure full width */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* If you want equal-width links that fill the space */
+.topnav a {
+  width: 25%; /* For 5 links, adjust based on your actual number of links */
+  /* OR use flexbox for more flexible distribution (see below) */
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #b7bebc;
+  color: white;
+}
+
+.image_container {
+    text-align: center;
+ }
+
+ .footer{
+    position: fixed;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(100, 100, 50, 0.1);
+    color: black;
+    text-align: center;
+    line-height: 50px; /* Center text vertically */
+    
+ }
+
+ .gohome {
+    cursor: pointer;
+ }
+
+ div.navChild{
+ 
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+
+    
+ }
+
+ div.navigation{
+    border: 3px solid #2ffe00;
+    padding: 20px;
+ }
+
+
+
