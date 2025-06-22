@@ -1,0 +1,91 @@
+/* styles.css */
+html {
+    font-size: 85%;  
+}
+
+body {
+    background-color: #ffffff;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* logo stuff */
+.header {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  width: 100%;
+  padding: 20px 0;         /* Add spacing as needed */
+  background: #ffffff;     /* Optional: set header bg color */
+}
+
+.header-logo {
+  width: 120px;            /* Use fixed width/height or */
+  height: auto;            /* 'auto' to maintain aspect ratio */
+  max-width: 10%;          /* Responsive scaling if needed */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(100, 100, 50, 0.1);
+    text-align: center;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+/*Not sure what this is controlling*/
+.nav-logo{
+    color: red;
+}
+
+.image_container {
+    text-align: center;
+ }
+
+ .footer{
+    position: fixed;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(100, 100, 50, 0.1);
+    color: black;
+    text-align: center;
+    line-height: 50px; /* Center text vertically */
+    
+ }
+
+ .gohome {
+    cursor: pointer;
+ }
+
+ div.navChild{
+ 
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+
+    
+ }
+
+ div.navigation{
+    border: 3px solid #2ffe00;
+    padding: 20px;
+ }
+
+
+
